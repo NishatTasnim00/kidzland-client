@@ -39,9 +39,9 @@ const AddAToy = () => {
 	return (
 		<div className="my-container">
 			<h1 className="title-3 pb-8">Add A New Toy</h1>
-			<form onSubmit={handleSubmit(onSubmit)} className="w-3/5 mx-auto">
+			<form onSubmit={handleSubmit(onSubmit)} className="lg:w-3/5 mx-auto">
 				{errors.exampleRequired && <span>This field is required</span>}
-				<div className="grid lg:grid-cols-2">
+				<div className="grid grid-cols-1 lg:grid-cols-2">
 					<div className="w-full px-5">
 						<label className="label">
 							<span className="text-add-toy">Photo URL</span>

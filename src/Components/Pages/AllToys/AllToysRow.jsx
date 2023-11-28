@@ -18,7 +18,7 @@ const AllToysRow = ({ product, i }) => {
 	
 	return (
 		<tr>
-			<th className="font-bold text-neutral text-center">
+			<th className="font-bold text-gray-600 text-center">
 				<label>
 					<p>{i + 1}</p>
 				</label>
@@ -31,7 +31,7 @@ const AllToysRow = ({ product, i }) => {
 						</div>
 					</div>
 					<div>
-						<div className="font-bold text-neutral text-center">{name}</div>
+						<div className="font-bold text-gray-600 text-center">{name}</div>
 						<div className="text-sm opacity-50">{subCategory}</div>
 						{sellerName && (
 							<div className="text-sm opacity-50">posted by : {sellerName}</div>
@@ -39,9 +39,9 @@ const AllToysRow = ({ product, i }) => {
 					</div>
 				</div>
 			</td>
-			<td className="font-bold text-neutral text-center">{price}</td>
+			<td className="font-bold text-gray-600 text-center">${price}</td>
 			<td></td>
-			<td className="font-bold text-neutral text-center">
+			<td className="font-bold text-gray-600 text-center">
 				{availableQuantity}
 			</td>
 			<td></td>

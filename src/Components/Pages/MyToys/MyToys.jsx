@@ -77,14 +77,14 @@ const MyToys = () => {
 		});
 	};
 	return (
-		<div>
+		<div className='min-h-[calc(100vh-80px)]'>
 			<h1 className="title-3 py-20">
 				{user.displayName
 					? `Uploaded By ${user.displayName}`
 					: 'My Toys Collection'}
 			</h1>
-			<div className="w-10/12 mx-auto pb-5 flex justify-end text-purple-700">
-				<p className="bg-purple-300 border-3 rounded-sm p-3 font-semibold text-xl ">
+			<div className="w-10/12 mx-auto pb-5 flex justify-end text-neutral ">
+				<p className="bg-neutral bg-opacity-30 border-3 rounded-sm p-3 font-semibold text-xl ">
 					Price{' '}
 					<button className="focus:outline-none" onClick={handleSort}>
 						{sort === 'asc' ? '▲' : '▼'}
@@ -96,28 +96,28 @@ const MyToys = () => {
 					{/* head */}
 					<thead>
 						<tr className="w-full">
-							<th className="text-purple-500 text-center bg-slate-200">
+							<th className="text-neutral text-center bg-slate-200">
 								<label>
 									<p>SI No:</p>
 								</label>
 							</th>
-							<th className="text-purple-500 text-center bg-slate-200">
+							<th className="text-neutral text-center bg-slate-200">
 								Info. <br></br>
 								<span className="font-thin">
 									Image, Name, Sub-category, Seller
 								</span>
 							</th>
-							<th className="text-purple-500 text-center bg-slate-200">
+							<th className="text-neutral text-center bg-slate-200">
 								Price
 							</th>
-							<th className="text-purple-500 text-center bg-slate-200">
+							<th className="text-neutral text-center bg-slate-200">
 								Quantity
 							</th>
-							<th className="text-purple-500 text-center bg-slate-200 w-/312">
+							<th className="text-neutral text-center bg-slate-200 w-/312">
 								Details
 							</th>
-							<th className="text-purple-500 text-center bg-slate-200">Edit</th>
-							<th className="text-purple-500 text-center bg-slate-200  ">
+							<th className="text-neutral text-center bg-slate-200">Edit</th>
+							<th className="text-neutral text-center bg-slate-200  ">
 								Delete
 							</th>
 						</tr>

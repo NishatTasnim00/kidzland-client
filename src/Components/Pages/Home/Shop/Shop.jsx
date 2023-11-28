@@ -31,7 +31,7 @@ const Shop = () => {
 		<>
 			<div>
 				<p className="title-2 pt-12">Shop</p>
-				<p className="text-center font-semibold text-gray-500 pt-5">
+				<p className="text-center font-semibold text-error pt-5">
 					Have a look according to category
 				</p>
 

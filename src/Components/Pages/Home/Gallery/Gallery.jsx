@@ -48,10 +48,20 @@ const Gallery = () => {
 						data-aos-duration="2500"
 					/>
 				</figure>
-				<figure className="h-72 w-full  col-span-12 lg:col-span-6 shadow-lg">
+				<figure className="h-72 w-full  col-span-12 lg:col-span-3 shadow-lg">
 					<img
 						className="h-72 w-full object-cover border-4"
-						src="https://i.ibb.co/vDCtdgL/word.jpg"
+						src="https://images.ctfassets.net/6m9bd13t776q/6WLiGgU6XzfLf1btkys8Ad/aa2ec5b6ad5540d395e3842cedcdb246/best_montessori_toys-hero-shutterstock_1234278556.webp?fm=webp&q=90"
+						alt=""
+						data-aos="flip-left"
+						data-aos-easing="ease-out-cubic"
+						data-aos-duration="3000"
+					/>
+				</figure>
+				<figure className="h-72 w-full  col-span-12 lg:col-span-3 shadow-lg">
+					<img
+						className="h-72 w-full object-cover border-4"
+						src="https://m.media-amazon.com/images/I/815oAHdrNPL._AC_SX425_.jpg"
 						alt=""
 						data-aos="flip-left"
 						data-aos-easing="ease-out-cubic"

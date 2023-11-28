@@ -9,17 +9,17 @@ const ShopCard = ({ product }) => {
 
     const myStyles = {
 			itemShapes: ThinStar,
-			activeFillColor: '#f0abfc',
+			activeFillColor: '#F87272',
 			inactiveFillColor: '#fdf2f8',
 		};
 	return (
-		<div className="card w-96 h-[450px]  shadow-xl rounded-none">
+		<div className="card w-96 h-[450px]  shadow-xl rounded-none mx-auto">
 			<figure className="px-5 my-5 h-64 w-full">
 				<img src={photo} alt="toys" className="rounded-none h-64 w-full object-cover" />
 			</figure>
 			<div className="flex flex-col items-center text-center space-y-3">
 				<h2 className="text-tag">{name}</h2>
-				<p className="text-price">{price}</p>
+				<p className="text-price">${price}</p>
 
 				<Rating
 					style={{ maxWidth: 100 }}

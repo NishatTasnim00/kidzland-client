@@ -28,13 +28,13 @@ const SingleToy = () => {
 
 	const myStyles = {
 		itemShapes: ThinStar,
-		activeFillColor: '#e879f9',
+		activeFillColor: '#F87272',
 		inactiveFillColor: '#fdf2f8',
 	};
 
 	return (
-		<div className="bg-gray-50 w-full p-28">
-			<div className="w-9/12 h-[450px] mx-auto card card-side bg-base-200 shadow-xl rounded-none relative">
+		<div className="bg-gray-50 w-full p-28 min-h-[calc(100vh-80px)] flex items-center">
+			<div className="w-9/12 h-[450px] mx-auto card card-side bg-accent bg-opacity-20 shadow-xl rounded-none relative">
 				<div className="absolute top-8 -left-20">
 					<figure className="bg-red-500 h-96 w-80 relative">
 						<img
@@ -63,10 +63,10 @@ const SingleToy = () => {
 								<span className="text-base-2"> left only</span>
 							</p>
 							<p className="text-4xl font-normal text-accent space-x-5 py-5">
-								{price}
+								${price}
 							</p>
 							<p className="text-base-2">
-								<span className="text-price">Description:</span> {description}
+								<span className="text-neutral">Description:</span> {description}
 							</p>
 
 							<div />
@@ -81,7 +81,7 @@ const SingleToy = () => {
 							>
 								{rating}
 							</Rating>
-							<button className="btn btn-secondary">Buy Now</button>
+							<button className="btn btn-primary">Buy Now</button>
 						</div>
 					</div>
 				</div>

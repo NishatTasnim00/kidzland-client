@@ -24,7 +24,7 @@ const AllToys = () => {
 	};
 	return (
 		<div>
-			<h1 className="title-2 py-20">Have A Look to all the available Toys</h1>
+			<h1 className="title-3 py-20 capitalize">Have A Look to all the available Toys</h1>
 			<div className="flex justify-center">
 				<div className="form-control">
 					<div className="input-group">
@@ -61,29 +61,29 @@ const AllToys = () => {
 					{/* head */}
 					<thead>
 						<tr>
-							<th className="text-purple-500 text-center bg-slate-200">
+							<th className="text-neutral text-center bg-slate-200">
 								<label>
 									<p>SI No:</p>
 								</label>
 							</th>
-							<th className="text-purple-500 text-center bg-slate-200 w-36">
+							<th className="text-neutral text-center bg-slate-200 w-36">
 								Info. <br></br>
 								<span className="font-thin">
 									Image, Name, Sub-category, Seller
 								</span>
 							</th>
 
-							<th className="text-purple-500 text-center bg-slate-200">
+							<th className="text-neutral text-center bg-slate-200">
 								Price
 							</th>
-							<th className="text-purple-500 text-center bg-slate-200"></th>
+							<th className="text-neutral text-center bg-slate-200"></th>
 
-							<th className="text-purple-500 text-center bg-slate-200">
+							<th className="text-neutral text-center bg-slate-200">
 								Quantity
 							</th>
-							<th className="text-purple-500 text-center bg-slate-200"></th>
+							<th className="text-neutral text-center bg-slate-200"></th>
 
-							<th className="text-purple-500 text-center bg-slate-200">
+							<th className="text-neutral text-center bg-slate-200">
 								View Details
 							</th>
 						</tr>
