@@ -7,9 +7,9 @@ import black from '../../../../assets/black-friday.png';
 
 const Features = () => {
     return (
-			<div className="bg-purple-100 lg:h-80 lg:flex ">
-				<div className="w-9/12 mx-auto grid lg:grid-cols-4 gap-4 space-y-10 items-center">
-					<div className="flex gap-2 mt-10">
+			<div className="bg-purple-100 lg:min-h-96 lg:flex  py-20 ">
+				<div className="w-9/12 mx-auto grid lg:grid-cols-4 gap-4 space-y-16 items-center pb-10">
+					<div className="flex gap-2 mt-10 items-center">
 						<img className="h-14" src={free} alt="" />
 						<div>
 							<h1 className="text-add-toy">Free Shipping</h1>

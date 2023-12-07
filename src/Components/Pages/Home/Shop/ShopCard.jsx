@@ -13,7 +13,7 @@ const ShopCard = ({ product }) => {
 			inactiveFillColor: '#fdf2f8',
 		};
 	return (
-		<div className="card w-96 h-[450px]  shadow-xl rounded-none mx-auto">
+		<div className="card  mx-5 lg:w-96 h-[450px]  shadow-xl rounded-none my-5 lg:my-0 bg-slate-100 border-2 border-accent border-opacity-10">
 			<figure className="px-5 my-5 h-64 w-full">
 				<img src={photo} alt="toys" className="rounded-none h-64 w-full object-cover" />
 			</figure>

@@ -7,7 +7,7 @@ const Gallery = () => {
 			<div className="grid grid-flow-row-dense grid-cols-12 gap-4">
 				<figure className="h-72 w-full col-span-12 lg:col-span-4 shadow-lg rounded-lg">
 					<img
-						className="h-72 object-cover border-4 "
+						className="h-72 w-full object-cover border-4"
 						src="https://i.ibb.co/Dz93QYk/counting-bears.jpg"
 						alt=""
 						data-aos="flip-left"

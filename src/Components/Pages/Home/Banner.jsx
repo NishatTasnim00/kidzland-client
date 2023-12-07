@@ -11,7 +11,7 @@ const Banner = () => {
 
 return (
 		<>
-			<div className="p-20 sm:max-w-xl md:max-w-full lg:max-w-screen lg:min-h-screen bg-purple-100 lg:flex">
+			<div className="lg:p-24 p-5 sm:max-w-xl md:max-w-full lg:max-w-screen lg:min-h-[700px]  bg-purple-100 lg:flex">
 				<div className="lg:w-5/12  text-center">
 					<img className="h-28 mx-auto pr-5" src={play} alt="" />
 

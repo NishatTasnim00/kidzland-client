@@ -43,10 +43,10 @@
 }
 
 .title-2 {
-	@apply bg-gradient-to-tr from-neutral from-10% via-accent via-30% to-emerald-500 to-90% text-transparent bg-clip-text text-4xl font-extrabold lg:text-5xl lg:font-bold text-center;
+	@apply bg-gradient-to-tr from-neutral from-10% to-accent  text-transparent bg-clip-text text-4xl font-extrabold lg:text-5xl lg:font-bold text-center;
 }
 .title-3 {
-	@apply bg-gradient-to-tr from-accent from-30% via-neutral via-40% to-emerald-500 to-90% text-transparent bg-clip-text text-4xl font-extrabold lg:text-4xl lg:font-bold text-center;
+	@apply bg-gradient-to-tr from-accent from-30% to-neutral  text-transparent bg-clip-text text-4xl font-extrabold lg:text-4xl lg:font-bold text-center;
 }
 .text-tag {
 	@apply text-xl font-semibold text-neutral;

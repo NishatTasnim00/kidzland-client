@@ -1,6 +1,3 @@
-# b7a11-toy-marketplace-client-side-NishatTasnim00
-
-
 # KidzLand
 ### A simple React app built with React & React Router Dom.
 ---
